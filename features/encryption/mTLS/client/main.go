@@ -29,8 +29,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/andrzejlapinski/simple-pb/data"
-	ecpb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
+	"simple-pb/data"
+	ecpb "simple-pb/features/proto/echo"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

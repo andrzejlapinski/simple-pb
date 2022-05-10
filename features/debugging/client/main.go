@@ -32,7 +32,7 @@ import (
 	"google.golang.org/grpc/resolver"
 	"google.golang.org/grpc/resolver/manual"
 
-	pb "github.com/andrzejlapinski/simple-pb/helloworld/helloworld"
+	pb "simple-pb/helloworld/helloworld"
 )
 
 const (

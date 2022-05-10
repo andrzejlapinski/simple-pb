@@ -27,9 +27,11 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/channelz/service"
-	"google.golang.org/grpc/internal/grpcrand"
 
-	pb "github.com/andrzejlapinski/simple-pb/helloworld/helloworld"
+	// "google.golang.org/grpc/internal/grpcrand"
+	"simple-pb/grpcrand"
+
+	pb "simple-pb/helloworld/helloworld"
 )
 
 var (

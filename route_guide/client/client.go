@@ -30,8 +30,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/andrzejlapinski/simple-pb/data"
-	pb "github.com/andrzejlapinski/simple-pb/route_guide/routeguide"
+	"simple-pb/data"
+	pb "simple-pb/route_guide/routeguide"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"

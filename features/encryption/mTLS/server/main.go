@@ -29,8 +29,10 @@ import (
 	"log"
 	"net"
 
-	"github.com/andrzejlapinski/simple-pb/data"
-	pb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
+	"simple-pb/data"
+
+	pb "simple-pb/features/proto/echo"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 )

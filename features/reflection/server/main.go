@@ -29,8 +29,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	ecpb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
-	hwpb "github.com/andrzejlapinski/simple-pb/helloworld/helloworld"
+	ecpb "simple-pb/features/proto/echo"
+	hwpb "simple-pb/helloworld/helloworld"
 )
 
 var port = flag.Int("port", 50051, "the port to serve on")

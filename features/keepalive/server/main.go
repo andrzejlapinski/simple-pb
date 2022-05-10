@@ -30,7 +30,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	pb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
+	pb "simple-pb/features/proto/echo"
 )
 
 var port = flag.Int("port", 50052, "port number")

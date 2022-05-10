@@ -29,7 +29,7 @@ import (
 	"google.golang.org/grpc"
 	_ "google.golang.org/grpc/encoding/gzip" // Install the gzip compressor
 
-	pb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
+	pb "simple-pb/features/proto/echo"
 )
 
 var port = flag.Int("port", 50051, "the port to serve on")

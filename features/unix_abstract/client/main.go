@@ -30,7 +30,8 @@ import (
 	"log"
 	"time"
 
-	ecpb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
+	ecpb "simple-pb/features/proto/echo"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

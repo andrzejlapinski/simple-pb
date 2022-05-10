@@ -27,7 +27,8 @@ import (
 	"strings"
 	"time"
 
-	pb "github.com/andrzejlapinski/simple-pb/helloworld/helloworld"
+	pb "simple-pb/helloworld/helloworld"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	xdscreds "google.golang.org/grpc/credentials/xds"

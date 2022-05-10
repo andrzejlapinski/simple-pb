@@ -26,7 +26,8 @@ import (
 	"log"
 	"time"
 
-	pb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
+	pb "simple-pb/features/proto/echo"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials/insecure"

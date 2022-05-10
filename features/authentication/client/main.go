@@ -26,12 +26,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/andrzejlapinski/simple-pb/data"
-	ecpb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
 	"golang.org/x/oauth2"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/oauth"
+	"simple-pb/data"
+	ecpb "simple-pb/features/proto/echo"
 )
 
 var addr = flag.String("addr", "localhost:50051", "the address to connect to")

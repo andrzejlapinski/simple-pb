@@ -26,8 +26,9 @@ import (
 	"log"
 	"time"
 
-	ecpb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
-	hwpb "github.com/andrzejlapinski/simple-pb/helloworld/helloworld"
+	ecpb "simple-pb/features/proto/echo"
+	hwpb "simple-pb/helloworld/helloworld"
+
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

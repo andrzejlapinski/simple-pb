@@ -37,12 +37,13 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/andrzejlapinski/simple-pb/data"
+	"simple-pb/data"
+
 	"google.golang.org/grpc/credentials"
 
 	"github.com/golang/protobuf/proto"
 
-	pb "github.com/andrzejlapinski/simple-pb/route_guide/routeguide"
+	pb "simple-pb/route_guide/routeguide"
 )
 
 var (

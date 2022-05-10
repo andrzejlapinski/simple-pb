@@ -5,8 +5,8 @@ Follow these setup to run the [quick start][] example:
  1. Get the code:
 
     ```console
-    $ go get github.com/andrzejlapinski/simple-pb/helloworld/greeter_client
-    $ go get github.com/andrzejlapinski/simple-pb/helloworld/greeter_server
+    $ go get simple-pb/helloworld/greeter_client
+    $ go get simple-pb/helloworld/greeter_server
     ```
 
  2. Run the server:
