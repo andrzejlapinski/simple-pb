@@ -26,8 +26,8 @@ import (
 	"log"
 	"net"
 
+	pb "github.com/andrzejlapinski/simple-pb/helloworld/helloworld"
 	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
 )
 
 var (

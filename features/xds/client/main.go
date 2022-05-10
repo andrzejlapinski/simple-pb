@@ -27,10 +27,10 @@ import (
 	"strings"
 	"time"
 
+	pb "github.com/andrzejlapinski/simple-pb/helloworld/helloworld"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	xdscreds "google.golang.org/grpc/credentials/xds"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
 
 	_ "google.golang.org/grpc/xds" // To install the xds resolvers and balancers.
 )

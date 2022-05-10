@@ -30,10 +30,10 @@ import (
 	"os"
 	"time"
 
+	pb "github.com/andrzejlapinski/simple-pb/helloworld/helloworld"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	xdscreds "google.golang.org/grpc/credentials/xds"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
 	"google.golang.org/grpc/health"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 	"google.golang.org/grpc/xds"

@@ -27,8 +27,8 @@ import (
 	"net"
 	"time"
 
+	pb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
 	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/features/proto/echo"
 	"google.golang.org/grpc/health"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )

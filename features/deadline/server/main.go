@@ -34,7 +34,7 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
 )
 
 var port = flag.Int("port", 50052, "port number")

@@ -32,7 +32,7 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
 )
 
 // server is used to implement EchoServer.

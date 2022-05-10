@@ -27,7 +27,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github.com/andrzejlapinski/simple-pb/features/proto/echo"
 )
 
 const addr = "localhost:50051"
